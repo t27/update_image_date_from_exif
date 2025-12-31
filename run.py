@@ -176,8 +176,8 @@ def process_images(input_dir, output_dir):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Copy images and set macOS creation time from EXIF metadata")
-    default_input = '/Users/tshah/Documents/Canon Vegas and Arizona/test/input1'
-    default_output = '/Users/tshah/Documents/Canon Vegas and Arizona/test/output1'
+    default_input = './input1'
+    default_output = './output1'
     parser.add_argument('-i', '--input', dest='input_dir', default=default_input,
                         help='Input directory containing images (default: %(default)s)')
     parser.add_argument('-o', '--output', dest='output_dir', default=default_output,
